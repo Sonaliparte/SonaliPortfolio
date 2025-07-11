@@ -1,11 +1,13 @@
 import { Github, Linkedin, Mail, MapPin } from 'lucide-react';
+import Skyline from '../assets/mumbaiskyline.png';
+import Me from '../assets/me.jpg';
 
 export default function Hero() {
   return (
     <section className="relative h-[80vh] flex flex-col items-center justify-center bg-black text-white overflow-hidden">
       {/* Background Image */}
       <img
-        src="/mumbaiskyline.png"
+        src= {Skyline}
         alt="Skyline"
         className="absolute top-0 left-0 w-full h-[40vh] object-cover z-0"
       />
@@ -19,7 +21,7 @@ export default function Hero() {
         <div className="relative bg-black/50 p-6 px-20 rounded-xl backdrop-blur-md flex items-center gap-10 z-10 shadow-md">
           {/* Profile Picture */}
           <img
-            src="/me.jpg"
+            src= {Me}
             alt="Sonali Parte"
             className="w-28 h-28 rounded-full object-cover"
           />

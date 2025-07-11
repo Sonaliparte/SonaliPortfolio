@@ -1,11 +1,13 @@
 import React from 'react';
+import gdgImg from '../assets/Volunteering/gdg.jpg';
+import googleImg from '../assets/Volunteering/google .jpg';
 
 const volunteering = [
   {
     title: 'Volunteer – GDG Cloud Mumbai',
     date: 'Jun 2025',
     tags: ['Community', 'Cloud', 'Hackathon'],
-    image: '/Volunteering/gdg.jpg', // Image placed at top
+    image: gdgImg,  
     description: `As a GDG volunteer, I had the opportunity to work closely with an inspiring team where I developed strong teamwork and communication.
 
 One of the highlights was co-organizing a hackathon for developers and tech enthusiasts.
@@ -18,10 +20,10 @@ These experiences helped me grow as a communicator, organizer, and team player.`
     title: 'Creator Contributor – Google',
     date: 'Dec 2023',
     tags: ['Google', 'Creator', 'Community'],
-    image: '/Volunteering/google .jpg', // Image placed at top
+    image: googleImg, 
     description: `Contributed to Google's creator initiatives through content, collaboration, and active engagement in their developer ecosystem.
 
-Participated in outreach efforts and helped support educational and creative projects.`,
+      Participated in outreach efforts and I created content using Google's Notes product as part of their creator initiatives.`,
   }
 ];
 

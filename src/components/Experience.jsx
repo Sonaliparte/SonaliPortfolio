@@ -1,5 +1,8 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
+import Gssc from '../assets/logos/gssc.jpg';
+import Shefi from '../assets/logos/shefi_logo.jpeg';
+import Smowcode from '../assets/logos/smowcode_logo.jpeg';
 
 const experiences = [
   {
@@ -9,10 +12,10 @@ const experiences = [
     location: 'Onsite',
     tags: ['C', 'ESP-IDF', 'Teamwork'],
     description: `Learned C and embedded library development using ESP-IDF. 
-    Developed and documented embedded libraries for clients, created projects using Smowcode Studio, 
+    Developed and documented embedded libraries for clients,
+    created projects using Smowcode Studio, 
     and gained hands-on experience with professional development workflows and collaboration.`,
-    logo: '/logos/smowcode_logo.jpeg', // Replace with your logo path
-    github: '', // Add if needed
+    logo: Smowcode, 
   },
   {
     title: 'Scholar Trainee',
@@ -21,8 +24,7 @@ const experiences = [
     location: 'Remote',
     tags: ['Scholarship', 'Wed3'],
     description: `Selected as a SheFi Scholar. Participated in sessions 14 focused on WEB3, technology, and personal growth.`,
-    logo: '/logos/shefi_logo.jpeg',
-    github: '',
+    logo: Shefi,
   },
   {
     title: 'GSSoC Contributor',
@@ -33,8 +35,7 @@ const experiences = [
     description: `Participants contribute to real-world projects under the extreme guidance of skilled mentors. 
 -Learn by actively engaging with the Open source community. 
 -Learn tech stacks like git and javascript.`,
-    logo: '/logos/gssc.jpg',
-    github: '',
+    logo: Gssc ,
   }
 ];
 

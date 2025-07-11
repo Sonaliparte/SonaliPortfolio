@@ -74,7 +74,7 @@ export default function Hero() {
       {/* Location */}
       <p className="mt-2 flex items-center gap-1 text-sm text-gray-400 z-10">
         <MapPin size={16} className="text-gray-400" />
-        Mumbai, India
+        Mumbai, India 
       </p>
     </section>
   );
